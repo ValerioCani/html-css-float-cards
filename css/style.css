@@ -19,6 +19,7 @@ main{
     clear:both;
     display: table;
 }
+/* Fine blocco regole generali */
 
 h1{
     color:#E53170;
@@ -31,6 +32,12 @@ h1{
     text-align: center;
     margin: 40px 0px;
 }
+
+main > p{
+    font-size: 20px;
+}
+
+/* fine regole parte superiore della pagina e inizio regole del blocco dei profili */
 
 h3{
     font-weight: 900;
@@ -48,4 +55,12 @@ h3{
     width: calc(100% / 3 - 40px);
     margin: 20px 20px;
     color:#fff;
+}
+
+div p, h3{
+    margin: 10px 0px 0px 110px;
+}
+
+div p:last-child{
+    color: #2EB0DC;
 }
