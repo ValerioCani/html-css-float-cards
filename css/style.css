@@ -22,13 +22,18 @@ main{
 
 h1{
     color:#E53170;
-    text-align: center;
+    font-size: 2.5em;
     font-weight: 900;
+    
+}
+
+.centrale{
+    text-align: center;
+    margin: 40px 0px;
 }
 
 h3{
     font-weight: 900;
-    color: #fff;
 }
 
 .id-box img{
@@ -40,6 +45,7 @@ h3{
     float: left;
     background-color: black;
     height: 100px;
-    width: 300px;
-    margin: 20px 10px;
+    width: calc(100% / 3 - 40px);
+    margin: 20px 20px;
+    color:#fff;
 }
