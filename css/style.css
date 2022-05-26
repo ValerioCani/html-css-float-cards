@@ -8,3 +8,38 @@
 body{
     font-family: 'Outfit', sans-serif;
 }
+
+main{
+    max-width: 1107px;
+    margin: auto;
+}
+
+.clearfix::after{
+    content: '';
+    clear:both;
+    display: table;
+}
+
+h1{
+    color:#E53170;
+    text-align: center;
+    font-weight: 900;
+}
+
+h3{
+    font-weight: 900;
+    color: #fff;
+}
+
+.id-box img{
+    width: 100px;
+    float: left;
+}
+
+.id-box{
+    float: left;
+    background-color: black;
+    height: 100px;
+    width: 300px;
+    margin: 20px 10px;
+}
